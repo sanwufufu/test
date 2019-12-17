@@ -4,8 +4,3 @@ Feature: Is it monday right?
     When I ask whether it's Friday yet
     Then I should be told "Nope"
 
-    @simpleDemo
-  Scenario: lalala
-    Given today is monday
-    When I ask whether it's Friday yet
-    Then I should be told "Nope"
