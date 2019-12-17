@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3347feb3-3c67-48a4-8250-bd10fc0dac4a" name="Default Changelist" comment="" />
+    <list default="true" id="3347feb3-3c67-48a4-8250-bd10fc0dac4a" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/hellocucumber/feature/test.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/hellocucumber/feature/test.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber.json" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,7 +92,7 @@
       <option name="presentableId" value="Default" />
       <updated>1574753044847</updated>
       <workItem from="1574753050324" duration="4842000" />
-      <workItem from="1575529965624" duration="9254000" />
+      <workItem from="1575529965624" duration="12397000" />
     </task>
     <servers />
   </component>
