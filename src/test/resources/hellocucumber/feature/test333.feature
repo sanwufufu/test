@@ -17,8 +17,8 @@ Feature: test333
 
   @simpleDemo
   Scenario: Friday333
-    Given today is Sunday1
+    Given today is Sunday
     When I ask whether it's Friday yet
-    Then I should be told "Nope"
+    Then I should be told "yes"
 
 

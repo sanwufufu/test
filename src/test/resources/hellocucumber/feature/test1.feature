@@ -1,5 +1,4 @@
 Feature: test1
-  @simpleDemo
   Scenario: testfriday
     Given today is Sunday
     When I ask whether it's Friday yet

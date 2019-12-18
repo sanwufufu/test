@@ -5,7 +5,7 @@ formatter.feature({
   "keyword": "Feature"
 });
 formatter.scenario({
-  "name": "testMonday",
+  "name": "testfriday",
   "description": "",
   "keyword": "Scenario",
   "tags": [
@@ -207,14 +207,12 @@ formatter.scenario({
   ]
 });
 formatter.step({
-  "name": "today is Sunday",
+  "name": "today is Sunday1",
   "keyword": "Given "
 });
-formatter.match({
-  "location": "Stepdefs.today_is_Sunday()"
-});
+formatter.match({});
 formatter.result({
-  "status": "passed"
+  "status": "undefined"
 });
 formatter.step({
   "name": "I ask whether it\u0027s Friday yet",
@@ -224,7 +222,7 @@ formatter.match({
   "location": "Stepdefs.i_ask_whether_it_s_Friday_yet()"
 });
 formatter.result({
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.step({
   "name": "I should be told \"Nope\"",
@@ -234,7 +232,7 @@ formatter.match({
   "location": "Stepdefs.i_should_be_told(String)"
 });
 formatter.result({
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.after({
   "status": "passed"
