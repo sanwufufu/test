@@ -1,4 +1,4 @@
-Feature: Is it Friday yet?
+Feature: test
   Everybody wants to know when it's
   Background: connect to databae
   Given this is background
