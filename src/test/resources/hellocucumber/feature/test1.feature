@@ -1,4 +1,4 @@
-Feature: Is it monday right?
+Feature: test1
   @simpleDemo
   Scenario: Friday
     Given today is Sunday

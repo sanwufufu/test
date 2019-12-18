@@ -3,7 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="3347feb3-3c67-48a4-8250-bd10fc0dac4a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/hellocucumber/feature/test.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/hellocucumber/feature/test.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/hellocucumber/feature/test1.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/hellocucumber/feature/test1.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/hellocucumber/feature/test1.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/hellocucumber/feature/test1.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test/cucumber/report.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/test/cucumber/report.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -40,7 +44,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.RunCucumberTest">
+  <component name="RunManager" selected="JavaScript Debug.index.html">
     <configuration name="Feature: test" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="4" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/hellocucumber/feature/test.feature" />
@@ -73,8 +77,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/hellocucumber/target/test/cucumber/index.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.index.html" />
         <item itemvalue="JUnit.RunCucumberTest" />
         <item itemvalue="Cucumber java.Feature: test" />
       </list>
@@ -91,7 +99,7 @@
       <option name="presentableId" value="Default" />
       <updated>1574753044847</updated>
       <workItem from="1574753050324" duration="4842000" />
-      <workItem from="1575529965624" duration="19169000" />
+      <workItem from="1575529965624" duration="20802000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1576576951191</created>
@@ -170,7 +178,14 @@
       <option name="project" value="LOCAL" />
       <updated>1576596323365</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="新增tag2">
+      <created>1576596712591</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1576596712591</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -194,6 +209,7 @@
     <MESSAGE value="新增feature-wrong" />
     <MESSAGE value="新增tag" />
     <MESSAGE value="新增tag1" />
-    <option name="LAST_COMMIT_MESSAGE" value="新增tag1" />
+    <MESSAGE value="新增tag2" />
+    <option name="LAST_COMMIT_MESSAGE" value="新增tag2" />
   </component>
 </project>

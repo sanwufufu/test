@@ -11,7 +11,7 @@
         "steps": [
           {
             "result": {
-              "duration": 185221,
+              "duration": 103337,
               "status": "passed"
             },
             "line": 4,
@@ -27,7 +27,7 @@
         "before": [
           {
             "result": {
-              "duration": 611047,
+              "duration": 353989,
               "status": "passed"
             },
             "match": {
@@ -42,7 +42,7 @@
         "after": [
           {
             "result": {
-              "duration": 37206,
+              "duration": 38180,
               "status": "passed"
             },
             "match": {
@@ -55,7 +55,7 @@
         "steps": [
           {
             "result": {
-              "duration": 122393,
+              "duration": 84138,
               "status": "passed"
             },
             "line": 8,
@@ -67,7 +67,7 @@
           },
           {
             "result": {
-              "duration": 53874,
+              "duration": 39095,
               "status": "passed"
             },
             "line": 9,
@@ -79,7 +79,7 @@
           },
           {
             "result": {
-              "duration": 145747,
+              "duration": 164214,
               "status": "passed"
             },
             "line": 10,
@@ -111,7 +111,7 @@
         "steps": [
           {
             "result": {
-              "duration": 54920,
+              "duration": 32400,
               "status": "passed"
             },
             "line": 4,
@@ -127,7 +127,7 @@
         "before": [
           {
             "result": {
-              "duration": 78546,
+              "duration": 51268,
               "status": "passed"
             },
             "match": {
@@ -142,7 +142,7 @@
         "after": [
           {
             "result": {
-              "duration": 48735,
+              "duration": 31906,
               "status": "passed"
             },
             "match": {
@@ -155,7 +155,7 @@
         "steps": [
           {
             "result": {
-              "duration": 51662,
+              "duration": 30082,
               "status": "passed"
             },
             "line": 14,
@@ -167,7 +167,7 @@
           },
           {
             "result": {
-              "duration": 54291,
+              "duration": 33929,
               "status": "passed"
             },
             "line": 15,
@@ -179,7 +179,7 @@
           },
           {
             "result": {
-              "duration": 107246,
+              "duration": 73890,
               "status": "passed"
             },
             "line": 16,
@@ -211,7 +211,7 @@
         "steps": [
           {
             "result": {
-              "duration": 53324,
+              "duration": 53520,
               "status": "passed"
             },
             "line": 4,
@@ -227,7 +227,7 @@
         "before": [
           {
             "result": {
-              "duration": 75586,
+              "duration": 75135,
               "status": "passed"
             },
             "match": {
@@ -242,7 +242,7 @@
         "after": [
           {
             "result": {
-              "duration": 53702,
+              "duration": 42856,
               "status": "passed"
             },
             "match": {
@@ -255,7 +255,7 @@
         "steps": [
           {
             "result": {
-              "duration": 52744,
+              "duration": 50522,
               "status": "passed"
             },
             "line": 20,
@@ -267,7 +267,7 @@
           },
           {
             "result": {
-              "duration": 52754,
+              "duration": 41670,
               "status": "passed"
             },
             "line": 21,
@@ -279,7 +279,7 @@
           },
           {
             "result": {
-              "duration": 108520,
+              "duration": 84423,
               "status": "passed"
             },
             "line": 22,
@@ -308,6 +308,96 @@
     "id": "is-it-friday-yet?",
     "keyword": "Feature",
     "uri": "classpath:hellocucumber/feature/test.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 125596,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Stepdefs.beforeOperation()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "Friday",
+        "description": "",
+        "id": "is-it-monday-right?;friday",
+        "after": [
+          {
+            "result": {
+              "duration": 60123,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Stepdefs.afterOperation()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 61805,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "today is Sunday",
+            "match": {
+              "location": "Stepdefs.today_is_Sunday()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 61359,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I ask whether it\u0027s Friday yet",
+            "match": {
+              "location": "Stepdefs.i_ask_whether_it_s_Friday_yet()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 120179,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I should be told \"Nope\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Nope\"",
+                  "offset": 17
+                }
+              ],
+              "location": "Stepdefs.i_should_be_told(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@simpleDemo"
+          }
+        ]
+      }
+    ],
+    "name": "Is it monday right?",
+    "description": "",
+    "id": "is-it-monday-right?",
+    "keyword": "Feature",
+    "uri": "classpath:hellocucumber/feature/test1.feature",
     "tags": []
   }
 ]
