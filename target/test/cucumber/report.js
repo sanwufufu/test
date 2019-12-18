@@ -1,6 +1,6 @@
 $(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("classpath:hellocucumber/feature/test.feature");
 formatter.feature({
-  "name": "Is it Friday yet?",
+  "name": "test",
   "description": "  Everybody wants to know when it\u0027s",
   "keyword": "Feature"
 });
@@ -189,7 +189,7 @@ formatter.after({
 });
 formatter.uri("classpath:hellocucumber/feature/test1.feature");
 formatter.feature({
-  "name": "Is it monday right?",
+  "name": "test1",
   "description": "",
   "keyword": "Feature"
 });

@@ -11,7 +11,7 @@
         "steps": [
           {
             "result": {
-              "duration": 103337,
+              "duration": 87343,
               "status": "passed"
             },
             "line": 4,
@@ -27,7 +27,7 @@
         "before": [
           {
             "result": {
-              "duration": 353989,
+              "duration": 309780,
               "status": "passed"
             },
             "match": {
@@ -38,11 +38,11 @@
         "line": 7,
         "name": "Friday",
         "description": "",
-        "id": "is-it-friday-yet?;friday",
+        "id": "test;friday",
         "after": [
           {
             "result": {
-              "duration": 38180,
+              "duration": 34684,
               "status": "passed"
             },
             "match": {
@@ -55,7 +55,7 @@
         "steps": [
           {
             "result": {
-              "duration": 84138,
+              "duration": 64739,
               "status": "passed"
             },
             "line": 8,
@@ -67,7 +67,7 @@
           },
           {
             "result": {
-              "duration": 39095,
+              "duration": 32190,
               "status": "passed"
             },
             "line": 9,
@@ -79,7 +79,7 @@
           },
           {
             "result": {
-              "duration": 164214,
+              "duration": 155790,
               "status": "passed"
             },
             "line": 10,
@@ -111,7 +111,7 @@
         "steps": [
           {
             "result": {
-              "duration": 32400,
+              "duration": 31482,
               "status": "passed"
             },
             "line": 4,
@@ -127,7 +127,7 @@
         "before": [
           {
             "result": {
-              "duration": 51268,
+              "duration": 46734,
               "status": "passed"
             },
             "match": {
@@ -138,11 +138,11 @@
         "line": 13,
         "name": "Friday222",
         "description": "",
-        "id": "is-it-friday-yet?;friday222",
+        "id": "test;friday222",
         "after": [
           {
             "result": {
-              "duration": 31906,
+              "duration": 29921,
               "status": "passed"
             },
             "match": {
@@ -155,7 +155,7 @@
         "steps": [
           {
             "result": {
-              "duration": 30082,
+              "duration": 26539,
               "status": "passed"
             },
             "line": 14,
@@ -167,7 +167,7 @@
           },
           {
             "result": {
-              "duration": 33929,
+              "duration": 25641,
               "status": "passed"
             },
             "line": 15,
@@ -179,7 +179,7 @@
           },
           {
             "result": {
-              "duration": 73890,
+              "duration": 63854,
               "status": "passed"
             },
             "line": 16,
@@ -211,7 +211,7 @@
         "steps": [
           {
             "result": {
-              "duration": 53520,
+              "duration": 27468,
               "status": "passed"
             },
             "line": 4,
@@ -227,7 +227,7 @@
         "before": [
           {
             "result": {
-              "duration": 75135,
+              "duration": 41443,
               "status": "passed"
             },
             "match": {
@@ -238,11 +238,11 @@
         "line": 19,
         "name": "Friday333",
         "description": "",
-        "id": "is-it-friday-yet?;friday333",
+        "id": "test;friday333",
         "after": [
           {
             "result": {
-              "duration": 42856,
+              "duration": 27211,
               "status": "passed"
             },
             "match": {
@@ -255,7 +255,7 @@
         "steps": [
           {
             "result": {
-              "duration": 50522,
+              "duration": 71785,
               "status": "passed"
             },
             "line": 20,
@@ -267,7 +267,7 @@
           },
           {
             "result": {
-              "duration": 41670,
+              "duration": 42748,
               "status": "passed"
             },
             "line": 21,
@@ -279,7 +279,7 @@
           },
           {
             "result": {
-              "duration": 84423,
+              "duration": 69035,
               "status": "passed"
             },
             "line": 22,
@@ -303,9 +303,9 @@
         ]
       }
     ],
-    "name": "Is it Friday yet?",
+    "name": "test",
     "description": "  Everybody wants to know when it\u0027s",
-    "id": "is-it-friday-yet?",
+    "id": "test",
     "keyword": "Feature",
     "uri": "classpath:hellocucumber/feature/test.feature",
     "tags": []
@@ -317,7 +317,7 @@
         "before": [
           {
             "result": {
-              "duration": 125596,
+              "duration": 71260,
               "status": "passed"
             },
             "match": {
@@ -328,11 +328,11 @@
         "line": 3,
         "name": "Friday",
         "description": "",
-        "id": "is-it-monday-right?;friday",
+        "id": "test1;friday",
         "after": [
           {
             "result": {
-              "duration": 60123,
+              "duration": 42263,
               "status": "passed"
             },
             "match": {
@@ -345,7 +345,7 @@
         "steps": [
           {
             "result": {
-              "duration": 61805,
+              "duration": 41575,
               "status": "passed"
             },
             "line": 4,
@@ -357,7 +357,7 @@
           },
           {
             "result": {
-              "duration": 61359,
+              "duration": 44568,
               "status": "passed"
             },
             "line": 5,
@@ -369,7 +369,7 @@
           },
           {
             "result": {
-              "duration": 120179,
+              "duration": 114529,
               "status": "passed"
             },
             "line": 6,
@@ -393,9 +393,9 @@
         ]
       }
     ],
-    "name": "Is it monday right?",
+    "name": "test1",
     "description": "",
-    "id": "is-it-monday-right?",
+    "id": "test1",
     "keyword": "Feature",
     "uri": "classpath:hellocucumber/feature/test1.feature",
     "tags": []
