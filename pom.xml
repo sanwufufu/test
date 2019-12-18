@@ -57,7 +57,7 @@
                         true<!-- 因为要执行Cucumber -->
                     </testFailureIgnore>
                     <includes>
-                        <include>**/CucumberStart.java</include>
+                        <include>**/*CucumberTest.java</include>
                     </includes>
                 </configuration>
             </plugin>
