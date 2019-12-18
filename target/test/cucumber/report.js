@@ -5,7 +5,7 @@ formatter.feature({
   "keyword": "Feature"
 });
 formatter.scenario({
-  "name": "Friday",
+  "name": "testMonday",
   "description": "",
   "keyword": "Scenario",
   "tags": [
