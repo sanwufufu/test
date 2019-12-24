@@ -11,7 +11,7 @@
         "steps": [
           {
             "result": {
-              "duration": 105639,
+              "duration": 95061,
               "status": "passed"
             },
             "line": 5,
@@ -27,7 +27,7 @@
         "before": [
           {
             "result": {
-              "duration": 364524,
+              "duration": 391918,
               "status": "passed"
             },
             "match": {
@@ -42,7 +42,7 @@
         "after": [
           {
             "result": {
-              "duration": 37303,
+              "duration": 38514,
               "status": "passed"
             },
             "match": {
@@ -55,7 +55,7 @@
         "steps": [
           {
             "result": {
-              "duration": 64891,
+              "duration": 43686,
               "status": "passed"
             },
             "line": 9,
@@ -67,7 +67,7 @@
           },
           {
             "result": {
-              "duration": 38202,
+              "duration": 36839,
               "status": "passed"
             },
             "line": 10,
@@ -79,7 +79,7 @@
           },
           {
             "result": {
-              "duration": 168339,
+              "duration": 132076,
               "status": "passed"
             },
             "line": 11,
@@ -111,7 +111,7 @@
         "steps": [
           {
             "result": {
-              "duration": 53473,
+              "duration": 38858,
               "status": "passed"
             },
             "line": 5,
@@ -127,7 +127,7 @@
         "before": [
           {
             "result": {
-              "duration": 88086,
+              "duration": 137308,
               "status": "passed"
             },
             "match": {
@@ -142,7 +142,7 @@
         "after": [
           {
             "result": {
-              "duration": 50065,
+              "duration": 62772,
               "status": "passed"
             },
             "match": {
@@ -155,7 +155,7 @@
         "steps": [
           {
             "result": {
-              "duration": 61051,
+              "duration": 98233,
               "status": "passed"
             },
             "line": 15,
@@ -167,7 +167,7 @@
           },
           {
             "result": {
-              "duration": 48203,
+              "duration": 48576,
               "status": "passed"
             },
             "line": 16,
@@ -179,7 +179,7 @@
           },
           {
             "result": {
-              "duration": 110818,
+              "duration": 90727,
               "status": "passed"
             },
             "line": 17,
@@ -188,6 +188,106 @@
               "arguments": [
                 {
                   "val": "\"Nope\"",
+                  "offset": 17
+                }
+              ],
+              "location": "steps.i_should_be_told(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@simpleDemo"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "connect to databae",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 55122,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "this is background",
+            "match": {
+              "location": "steps.backGround()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 89163,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.beforeOperation()"
+            }
+          }
+        ],
+        "line": 20,
+        "name": "friday is friday",
+        "description": "",
+        "id": "is-it-friday-yet?;friday-is-friday",
+        "after": [
+          {
+            "result": {
+              "duration": 47357,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.afterOperation()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 68673,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "today is Friday",
+            "match": {
+              "location": "steps.today_is_Friday()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 51093,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "I ask whether it\u0027s Friday yet",
+            "match": {
+              "location": "steps.i_ask_whether_it_s_Friday_yet()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 120723,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "I should be told \"yes\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"yes\"",
                   "offset": 17
                 }
               ],
@@ -217,7 +317,7 @@
         "before": [
           {
             "result": {
-              "duration": 47950,
+              "duration": 60475,
               "status": "passed"
             },
             "match": {
@@ -228,11 +328,11 @@
         "line": 3,
         "name": "testfriday",
         "description": "",
-        "id": ";testfriday",
+        "id": "test;testfriday",
         "after": [
           {
             "result": {
-              "duration": 31952,
+              "duration": 46531,
               "status": "passed"
             },
             "match": {
@@ -245,20 +345,17 @@
         "steps": [
           {
             "result": {
-              "duration": 33153,
-              "status": "passed"
+              "status": "undefined"
             },
             "line": 4,
-            "name": "today is Sunday",
-            "match": {
-              "location": "steps.today_is_Sunday()"
-            },
+            "name": "today is Sunday1",
+            "match": {},
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 29857,
-              "status": "passed"
+              "duration": 7406,
+              "status": "skipped"
             },
             "line": 5,
             "name": "I ask whether it\u0027s Friday yet",
@@ -269,8 +366,8 @@
           },
           {
             "result": {
-              "duration": 87250,
-              "status": "passed"
+              "duration": 5095,
+              "status": "skipped"
             },
             "line": 6,
             "name": "I should be told \"Nope\"",
@@ -293,9 +390,9 @@
         ]
       }
     ],
-    "name": "",
+    "name": "test",
     "description": "",
-    "id": "",
+    "id": "test",
     "keyword": "Feature",
     "uri": "classpath:hellocucumber/feature/test.feature",
     "tags": [

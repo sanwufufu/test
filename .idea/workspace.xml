@@ -2,15 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3347feb3-3c67-48a4-8250-bd10fc0dac4a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/hellocucumber/Stepdefs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/hellocucumber/steps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/hellocucumber/feature/test1.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/hellocucumber/feature/test.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/hellocucumber/feature/test333.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/hellocucumber/feature/is it friday yet.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cucumber.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/hellocucumber/Stepdefs.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/hellocucumber/feature/test1.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test/cucumber/report.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/test/cucumber/report.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/hellocucumber/RunCucumberTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/hellocucumber/RunCucumberTest.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -118,7 +111,7 @@
       <workItem from="1575529965624" duration="20802000" />
       <workItem from="1576636954612" duration="15137000" />
       <workItem from="1576819305320" duration="2295000" />
-      <workItem from="1577076844276" duration="9894000" />
+      <workItem from="1577076844276" duration="10048000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1576576951191</created>
@@ -281,7 +274,14 @@
       <option name="project" value="LOCAL" />
       <updated>1576653437943</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="错误的feature">
+      <created>1577153931574</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1577153931575</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -309,6 +309,7 @@
     <MESSAGE value="新增tag1" />
     <MESSAGE value="新增tag2" />
     <MESSAGE value="feature" />
-    <option name="LAST_COMMIT_MESSAGE" value="feature" />
+    <MESSAGE value="错误的feature" />
+    <option name="LAST_COMMIT_MESSAGE" value="错误的feature" />
   </component>
 </project>
