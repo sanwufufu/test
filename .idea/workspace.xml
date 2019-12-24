@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3347feb3-3c67-48a4-8250-bd10fc0dac4a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/hellocucumber/steps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/hellocucumber/steps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/hellocucumber/feature/test.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/hellocucumber/feature/test.feature" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -111,7 +110,7 @@
       <workItem from="1575529965624" duration="20802000" />
       <workItem from="1576636954612" duration="15137000" />
       <workItem from="1576819305320" duration="2295000" />
-      <workItem from="1577076844276" duration="11342000" />
+      <workItem from="1577076844276" duration="11586000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1576576951191</created>
@@ -302,7 +301,14 @@
       <option name="project" value="LOCAL" />
       <updated>1577155283138</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="修改feature">
+      <created>1577155419684</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1577155419684</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
