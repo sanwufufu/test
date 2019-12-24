@@ -1,4 +1,4 @@
-$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("classpath:hellocucumber/feature/is%20it%20friday%20yet.feature");
+$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("file:src/test/resources/hellocucumber/feature/is%20it%20friday%20yet.feature");
 formatter.feature({
   "name": "Is it friday yet?",
   "description": "  Everybody wants to know when it\u0027s",
@@ -187,7 +187,7 @@ formatter.result({
 formatter.after({
   "status": "passed"
 });
-formatter.uri("classpath:hellocucumber/feature/test.feature");
+formatter.uri("file:src/test/resources/hellocucumber/feature/test.feature");
 formatter.feature({
   "name": "test",
   "description": "",
@@ -212,12 +212,14 @@ formatter.before({
   "status": "passed"
 });
 formatter.step({
-  "name": "today is Sunday1",
+  "name": "today is Sunday",
   "keyword": "Given "
 });
-formatter.match({});
+formatter.match({
+  "location": "steps.today_is_Sunday()"
+});
 formatter.result({
-  "status": "undefined"
+  "status": "passed"
 });
 formatter.step({
   "name": "I ask whether it\u0027s Friday yet",
@@ -227,7 +229,7 @@ formatter.match({
   "location": "steps.i_ask_whether_it_s_Friday_yet()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "I should be told \"Nope\"",
@@ -237,7 +239,7 @@ formatter.match({
   "location": "steps.i_should_be_told(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.after({
   "status": "passed"
