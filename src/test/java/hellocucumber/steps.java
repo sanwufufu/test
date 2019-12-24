@@ -35,12 +35,12 @@ public class steps {
 
     @Before("@simpleDemo")
     public void beforeOperation(){
-        System.out.println("beforetag");
+        System.out.println("before_tag");
     }
 
     @After("@simpleDemo")
     public void afterOperation(){
-        System.out.println("aftertag");
+        System.out.println("after_tag");
     }
 
     @Given("this is background")
