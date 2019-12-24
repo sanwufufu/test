@@ -1,31 +1,52 @@
 [
   {
-    "line": 1,
+    "line": 2,
     "elements": [
+      {
+        "line": 4,
+        "name": "connect to databae",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 105639,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "this is background",
+            "match": {
+              "location": "steps.backGround()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
       {
         "before": [
           {
             "result": {
-              "duration": 549415,
+              "duration": 364524,
               "status": "passed"
             },
             "match": {
-              "location": "Stepdefs.beforeOperation()"
+              "location": "steps.beforeOperation()"
             }
           }
         ],
-        "line": 3,
-        "name": "testfriday",
+        "line": 8,
+        "name": "sunday isn\u0027t friday",
         "description": "",
-        "id": "test1;testfriday",
+        "id": "is-it-friday-yet?;sunday-isn-t-friday",
         "after": [
           {
             "result": {
-              "duration": 16547,
+              "duration": 37303,
               "status": "passed"
             },
             "match": {
-              "location": "Stepdefs.afterOperation()"
+              "location": "steps.afterOperation()"
             }
           }
         ],
@@ -34,31 +55,221 @@
         "steps": [
           {
             "result": {
-              "duration": 72409,
+              "duration": 64891,
               "status": "passed"
             },
-            "line": 4,
+            "line": 9,
             "name": "today is Sunday",
             "match": {
-              "location": "Stepdefs.today_is_Sunday()"
+              "location": "steps.today_is_Sunday()"
             },
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 25491,
+              "duration": 38202,
               "status": "passed"
             },
-            "line": 5,
+            "line": 10,
             "name": "I ask whether it\u0027s Friday yet",
             "match": {
-              "location": "Stepdefs.i_ask_whether_it_s_Friday_yet()"
+              "location": "steps.i_ask_whether_it_s_Friday_yet()"
             },
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 96305,
+              "duration": 168339,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I should be told \"Nope\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Nope\"",
+                  "offset": 17
+                }
+              ],
+              "location": "steps.i_should_be_told(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@simpleDemo"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "connect to databae",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 53473,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "this is background",
+            "match": {
+              "location": "steps.backGround()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 88086,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.beforeOperation()"
+            }
+          }
+        ],
+        "line": 14,
+        "name": "monday isn\u0027t friday",
+        "description": "",
+        "id": "is-it-friday-yet?;monday-isn-t-friday",
+        "after": [
+          {
+            "result": {
+              "duration": 50065,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.afterOperation()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 61051,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "today is Monday",
+            "match": {
+              "location": "steps.today_is_Monday()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 48203,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I ask whether it\u0027s Friday yet",
+            "match": {
+              "location": "steps.i_ask_whether_it_s_Friday_yet()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 110818,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I should be told \"Nope\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Nope\"",
+                  "offset": 17
+                }
+              ],
+              "location": "steps.i_should_be_told(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@simpleDemo"
+          }
+        ]
+      }
+    ],
+    "name": "Is it friday yet?",
+    "description": "  Everybody wants to know when it\u0027s",
+    "id": "is-it-friday-yet?",
+    "keyword": "Feature",
+    "uri": "classpath:hellocucumber/feature/is%20it%20friday%20yet.feature",
+    "tags": []
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 47950,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.beforeOperation()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "testfriday",
+        "description": "",
+        "id": ";testfriday",
+        "after": [
+          {
+            "result": {
+              "duration": 31952,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.afterOperation()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 33153,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "today is Sunday",
+            "match": {
+              "location": "steps.today_is_Sunday()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 29857,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I ask whether it\u0027s Friday yet",
+            "match": {
+              "location": "steps.i_ask_whether_it_s_Friday_yet()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 87250,
               "status": "passed"
             },
             "line": 6,
@@ -70,7 +281,7 @@
                   "offset": 17
                 }
               ],
-              "location": "Stepdefs.i_should_be_told(String)"
+              "location": "steps.i_should_be_told(String)"
             },
             "keyword": "Then "
           }
@@ -82,319 +293,20 @@
         ]
       }
     ],
-    "name": "test1",
+    "name": "",
     "description": "",
-    "id": "test1",
+    "id": "",
     "keyword": "Feature",
-    "uri": "classpath:hellocucumber/feature/test1.feature",
-    "tags": []
-  },
-  {
-    "line": 1,
-    "elements": [
+    "uri": "classpath:hellocucumber/feature/test.feature",
+    "tags": [
       {
-        "line": 3,
-        "name": "connect to databae",
-        "description": "",
-        "type": "background",
-        "keyword": "Background",
-        "steps": [
-          {
-            "result": {
-              "duration": 19415,
-              "status": "passed"
-            },
-            "line": 4,
-            "name": "this is background",
-            "match": {
-              "location": "Stepdefs.backGround()"
-            },
-            "keyword": "Given "
-          }
-        ]
-      },
-      {
-        "before": [
-          {
-            "result": {
-              "duration": 31581,
-              "status": "passed"
-            },
-            "match": {
-              "location": "Stepdefs.beforeOperation()"
-            }
-          }
-        ],
-        "line": 7,
-        "name": "Friday",
-        "description": "",
-        "id": "test333;friday",
-        "after": [
-          {
-            "result": {
-              "duration": 13789,
-              "status": "passed"
-            },
-            "match": {
-              "location": "Stepdefs.afterOperation()"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario",
-        "steps": [
-          {
-            "result": {
-              "duration": 14003,
-              "status": "passed"
-            },
-            "line": 8,
-            "name": "today is Sunday",
-            "match": {
-              "location": "Stepdefs.today_is_Sunday()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 12939,
-              "status": "passed"
-            },
-            "line": 9,
-            "name": "I ask whether it\u0027s Friday yet",
-            "match": {
-              "location": "Stepdefs.i_ask_whether_it_s_Friday_yet()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 47357,
-              "status": "passed"
-            },
-            "line": 10,
-            "name": "I should be told \"Nope\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"Nope\"",
-                  "offset": 17
-                }
-              ],
-              "location": "Stepdefs.i_should_be_told(String)"
-            },
-            "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@simpleDemo"
-          }
-        ]
-      },
-      {
-        "line": 3,
-        "name": "connect to databae",
-        "description": "",
-        "type": "background",
-        "keyword": "Background",
-        "steps": [
-          {
-            "result": {
-              "duration": 16161,
-              "status": "passed"
-            },
-            "line": 4,
-            "name": "this is background",
-            "match": {
-              "location": "Stepdefs.backGround()"
-            },
-            "keyword": "Given "
-          }
-        ]
-      },
-      {
-        "before": [
-          {
-            "result": {
-              "duration": 23652,
-              "status": "passed"
-            },
-            "match": {
-              "location": "Stepdefs.beforeOperation()"
-            }
-          }
-        ],
-        "line": 13,
-        "name": "Friday222",
-        "description": "",
-        "id": "test333;friday222",
-        "after": [
-          {
-            "result": {
-              "duration": 14295,
-              "status": "passed"
-            },
-            "match": {
-              "location": "Stepdefs.afterOperation()"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario",
-        "steps": [
-          {
-            "result": {
-              "duration": 14308,
-              "status": "passed"
-            },
-            "line": 14,
-            "name": "today is Sunday",
-            "match": {
-              "location": "Stepdefs.today_is_Sunday()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 13373,
-              "status": "passed"
-            },
-            "line": 15,
-            "name": "I ask whether it\u0027s Friday yet",
-            "match": {
-              "location": "Stepdefs.i_ask_whether_it_s_Friday_yet()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 45861,
-              "status": "passed"
-            },
-            "line": 16,
-            "name": "I should be told \"Nope\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"Nope\"",
-                  "offset": 17
-                }
-              ],
-              "location": "Stepdefs.i_should_be_told(String)"
-            },
-            "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@simpleDemo"
-          }
-        ]
-      },
-      {
-        "line": 3,
-        "name": "connect to databae",
-        "description": "",
-        "type": "background",
-        "keyword": "Background",
-        "steps": [
-          {
-            "result": {
-              "duration": 18108,
-              "status": "passed"
-            },
-            "line": 4,
-            "name": "this is background",
-            "match": {
-              "location": "Stepdefs.backGround()"
-            },
-            "keyword": "Given "
-          }
-        ]
-      },
-      {
-        "before": [
-          {
-            "result": {
-              "duration": 62228,
-              "status": "passed"
-            },
-            "match": {
-              "location": "Stepdefs.beforeOperation()"
-            }
-          }
-        ],
-        "line": 19,
-        "name": "Friday333",
-        "description": "",
-        "id": "test333;friday333",
-        "after": [
-          {
-            "result": {
-              "duration": 20807,
-              "status": "passed"
-            },
-            "match": {
-              "location": "Stepdefs.afterOperation()"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario",
-        "steps": [
-          {
-            "result": {
-              "status": "undefined"
-            },
-            "line": 20,
-            "name": "today is Sunday1",
-            "match": {},
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 7362,
-              "status": "skipped"
-            },
-            "line": 21,
-            "name": "I ask whether it\u0027s Friday yet",
-            "match": {
-              "location": "Stepdefs.i_ask_whether_it_s_Friday_yet()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 4223,
-              "status": "skipped"
-            },
-            "line": 22,
-            "name": "I should be told \"Nope\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"Nope\"",
-                  "offset": 17
-                }
-              ],
-              "location": "Stepdefs.i_should_be_told(String)"
-            },
-            "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@simpleDemo"
-          }
-        ]
+        "name": "@simpleDemo",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
       }
-    ],
-    "name": "test333",
-    "description": "  Everybody wants to know when it\u0027s",
-    "id": "test333",
-    "keyword": "Feature",
-    "uri": "classpath:hellocucumber/feature/test333.feature",
-    "tags": []
+    ]
   }
 ]

@@ -8,25 +8,29 @@ import cucumber.api.java.en.When;
 
 import static org.junit.Assert.*;
 
-public class Stepdefs {
+public class steps {
     @Given("today is Sunday")
     public void today_is_Sunday() {
-        System.out.println("test1");
+        System.out.println("today is Sunday");
+    }
+    @Given("today is Friday")
+    public void today_is_Friday() {
+        System.out.println("today is Friday");
     }
 
     @When("I ask whether it's Friday yet")
     public void i_ask_whether_it_s_Friday_yet() {
-        System.out.println("test2");
+        System.out.println("I ask whether it's Friday yet");
     }
 
     @Then("I should be told {string}")
-    public void i_should_be_told(String string) {
-        System.out.println("test3");
+    public void i_should_be_told(String result) {
+        System.out.println(result);
     }
 
     @Given("today is Monday")
     public void today_is_Monday() {
-        System.out.println("Monday");
+        System.out.println("today is Monday");
     }
 
     @Before("@simpleDemo")
@@ -41,7 +45,7 @@ public class Stepdefs {
 
     @Given("this is background")
     public void backGround(){
-        System.out.println("backGroundtag");
+        System.out.println("execute background operation");
     }
 
 
